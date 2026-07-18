@@ -1,0 +1,465 @@
+2026-07-18 13:17:00,522:__main__:Found 8 URLs to process
+2026-07-18 13:17:00,741:__main__:Starting vendor: 16051 | https://midwestsupplyus.com/
+2026-07-18 13:17:00,742:__main__:Vendor 16051 >> Processing product_id: 284167, mpn: 100109978, vendor_product_id: 2423280
+2026-07-18 13:17:02,840:__main__:Product (ID: 284167) is marked as processed
+2026-07-18 13:17:18,855:__main__:Product URL: https://midwestsupplyus.com/products/lochinvar-100109978?variant=43703852138679
+2026-07-18 13:17:26,263:__main__:Add to Cart button clicked
+2026-07-18 13:17:36,586:__main__:Error finding or clicking button: Message: 
+Stacktrace:
+	undetected_chromedriver!GetHandleVerifier [0x60a543+103f3]
+	undetected_chromedriver!GetHandleVerifier [0x60a584+10434]
+	undetected_chromedriver!(No symbol) [0x40a700]
+	undetected_chromedriver!(No symbol) [0x453bab]
+	undetected_chromedriver!(No symbol) [0x453dcb]
+	undetected_chromedriver!(No symbol) [0x495b32]
+	undetected_chromedriver!(No symbol) [0x476114]
+	undetected_chromedriver!(No symbol) [0x49339a]
+	undetected_chromedriver!(No symbol) [0x475e66]
+	undetected_chromedriver!(No symbol) [0x449159]
+	undetected_chromedriver!(No symbol) [0x449f24]
+	undetected_chromedriver!GetHandleVerifier [0x894bba+29aa6a]
+	undetected_chromedriver!GetHandleVerifier [0x890119+295fc9]
+	undetected_chromedriver!GetHandleVerifier [0x8b103e+2b6eee]
+	undetected_chromedriver!GetHandleVerifier [0x6237f6+296a6]
+	undetected_chromedriver!GetHandleVerifier [0x62a91d+307cd]
+	undetected_chromedriver!GetHandleVerifier [0x612d18+18bc8]
+	undetected_chromedriver!GetHandleVerifier [0x612ec5+18d75]
+	undetected_chromedriver!GetHandleVerifier [0x5fc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x771e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898944+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898914+b4]
+Traceback (most recent call last):
+  File "D:\_PreetiProjects\July2026\Midwestsupplyus\Pricingmidwestsupplyus.py", line 214, in scraped_by_mpn
+    wait.until(
+    ~~~~~~~~~~^
+        EC.visibility_of_element_located(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            (By.CSS_SELECTOR, "a.btn.green.cart__cart")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	undetected_chromedriver!GetHandleVerifier [0x60a543+103f3]
+	undetected_chromedriver!GetHandleVerifier [0x60a584+10434]
+	undetected_chromedriver!(No symbol) [0x40a700]
+	undetected_chromedriver!(No symbol) [0x453bab]
+	undetected_chromedriver!(No symbol) [0x453dcb]
+	undetected_chromedriver!(No symbol) [0x495b32]
+	undetected_chromedriver!(No symbol) [0x476114]
+	undetected_chromedriver!(No symbol) [0x49339a]
+	undetected_chromedriver!(No symbol) [0x475e66]
+	undetected_chromedriver!(No symbol) [0x449159]
+	undetected_chromedriver!(No symbol) [0x449f24]
+	undetected_chromedriver!GetHandleVerifier [0x894bba+29aa6a]
+	undetected_chromedriver!GetHandleVerifier [0x890119+295fc9]
+	undetected_chromedriver!GetHandleVerifier [0x8b103e+2b6eee]
+	undetected_chromedriver!GetHandleVerifier [0x6237f6+296a6]
+	undetected_chromedriver!GetHandleVerifier [0x62a91d+307cd]
+	undetected_chromedriver!GetHandleVerifier [0x612d18+18bc8]
+	undetected_chromedriver!GetHandleVerifier [0x612ec5+18d75]
+	undetected_chromedriver!GetHandleVerifier [0x5fc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x771e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898944+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898914+b4]
+
+2026-07-18 13:17:36,603:__main__:Error in scraped_by_mpn(): cannot access local variable 'final_price' where it is not associated with a value
+2026-07-18 13:17:36,604:__main__:Starting vendor: 16051 | https://midwestsupplyus.com/
+2026-07-18 13:17:36,605:__main__:Vendor 16051 >> Processing product_id: 226324, mpn: 100271887, vendor_product_id: 5069812
+2026-07-18 13:17:40,915:__main__:Product (ID: 226324) is marked as processed
+2026-07-18 13:17:50,794:__main__:Product URL: https://midwestsupplyus.com/products/lochinvar-100271887
+2026-07-18 13:17:51,162:__main__:Add to Cart button clicked
+2026-07-18 13:18:02,869:__main__:Shipping button clicked
+2026-07-18 13:18:03,361:__main__:ZIP code entered: 11001
+2026-07-18 13:18:03,646:__main__:State selected: New York
+2026-07-18 13:18:05,731:__main__:Update Totals clicked
+2026-07-18 13:18:08,543:__main__:Error finding or clicking button: could not convert string to float: ''
+Traceback (most recent call last):
+  File "D:\_PreetiProjects\July2026\Midwestsupplyus\Pricingmidwestsupplyus.py", line 278, in scraped_by_mpn
+    shipping_cost = float(shipping_cost.replace(",", "").strip())
+ValueError: could not convert string to float: ''
+2026-07-18 13:18:08,545:__main__:Error in scraped_by_mpn(): cannot access local variable 'final_price' where it is not associated with a value
+2026-07-18 13:18:08,546:__main__:Starting vendor: 16051 | https://midwestsupplyus.com/
+2026-07-18 13:18:08,546:__main__:Vendor 16051 >> Processing product_id: 226323, mpn: 100234320, vendor_product_id: 4882498
+2026-07-18 13:18:12,754:__main__:Product (ID: 226323) is marked as processed
+2026-07-18 13:18:23,729:__main__:Product URL: https://midwestsupplyus.com/products/lochinvar-100234320?variant=43704122835127
+2026-07-18 13:18:24,270:__main__:Add to Cart button clicked
+2026-07-18 13:18:35,415:__main__:Shipping button clicked
+2026-07-18 13:18:36,064:__main__:ZIP code entered: 11001
+2026-07-18 13:18:36,244:__main__:State selected: New York
+2026-07-18 13:18:38,299:__main__:Update Totals clicked
+2026-07-18 13:18:39,361:__main__:Shipping: 0.0
+2026-07-18 13:18:49,878:__main__:Product removed from cart
+2026-07-18 13:18:52,238:__main__:Same vendor price already exists for vendor_product_id 4882498
+2026-07-18 13:18:52,666:__main__:Record Updated for vendor_product_id (4882498) and source (direct_from_website)
+2026-07-18 13:18:58,317:__main__:History Table is up-to-date.
+2026-07-18 13:18:58,758:__main__:Record Inserted for vendor_product_id (4882498) and source (direct_from_website) In z_16051_VendorPricing history table.
+2026-07-18 13:19:21,848:__main__:Product (ID: 226323) is marked as scraped
+2026-07-18 13:19:22,066:__main__:Starting vendor: 16051 | https://midwestsupplyus.com/
+2026-07-18 13:19:22,067:__main__:Vendor 16051 >> Processing product_id: 226322, mpn: 100210089, vendor_product_id: 5069811
+2026-07-18 13:19:24,188:__main__:Product (ID: 226322) is marked as processed
+2026-07-18 13:19:30,424:__main__:Product URL: https://midwestsupplyus.com/products/lochinvar-100210089
+2026-07-18 13:19:31,069:__main__:Add to Cart button clicked
+2026-07-18 13:19:42,600:__main__:Shipping button clicked
+2026-07-18 13:19:42,968:__main__:ZIP code entered: 11001
+2026-07-18 13:19:43,109:__main__:State selected: New York
+2026-07-18 13:19:45,168:__main__:Update Totals clicked
+2026-07-18 13:19:46,228:__main__:Shipping: 0.0
+2026-07-18 13:19:54,731:__main__:Product removed from cart
+2026-07-18 13:19:57,116:__main__:Same vendor price already exists for vendor_product_id 5069811
+2026-07-18 13:19:57,549:__main__:Record Updated for vendor_product_id (5069811) and source (direct_from_website)
+2026-07-18 13:20:03,119:__main__:History Table is up-to-date.
+2026-07-18 13:20:03,568:__main__:Record Inserted for vendor_product_id (5069811) and source (direct_from_website) In z_16051_VendorPricing history table.
+2026-07-18 13:20:26,724:__main__:Product (ID: 226322) is marked as scraped
+2026-07-18 13:20:27,026:__main__:Starting vendor: 16051 | https://midwestsupplyus.com/
+2026-07-18 13:20:27,059:__main__:Vendor 16051 >> Processing product_id: 226321, mpn: 100210041, vendor_product_id: 5069810
+2026-07-18 13:20:29,258:__main__:Product (ID: 226321) is marked as processed
+2026-07-18 13:21:01,924:__main__:Product URL: https://midwestsupplyus.com/products/lochinvar-100210041
+2026-07-18 13:21:02,319:__main__:Add to Cart button clicked
+2026-07-18 13:21:17,696:__main__:Shipping button clicked
+2026-07-18 13:21:17,982:__main__:ZIP code entered: 11001
+2026-07-18 13:21:18,079:__main__:State selected: New York
+2026-07-18 13:21:20,132:__main__:Update Totals clicked
+2026-07-18 13:21:21,192:__main__:Shipping: 17.56
+2026-07-18 13:21:31,228:__main__:Product removed from cart
+2026-07-18 13:21:33,494:__main__:Same vendor price already exists for vendor_product_id 5069810
+2026-07-18 13:21:33,907:__main__:Record Updated for vendor_product_id (5069810) and source (direct_from_website)
+2026-07-18 13:21:39,557:__main__:History Table is up-to-date.
+2026-07-18 13:21:39,978:__main__:Record Inserted for vendor_product_id (5069810) and source (direct_from_website) In z_16051_VendorPricing history table.
+2026-07-18 13:22:02,656:__main__:Product (ID: 226321) is marked as scraped
+2026-07-18 13:22:02,879:__main__:Starting vendor: 16051 | https://midwestsupplyus.com/
+2026-07-18 13:22:02,880:__main__:Vendor 16051 >> Processing product_id: 226320, mpn: 100187927, vendor_product_id: 2423051
+2026-07-18 13:22:05,109:__main__:Product (ID: 226320) is marked as processed
+2026-07-18 13:22:14,030:__main__:Product URL: https://midwestsupplyus.com/products/lochinvar-100187927?variant=48757314879671
+2026-07-18 13:22:24,469:__main__:Error finding or clicking button: Message: 
+Stacktrace:
+	undetected_chromedriver!GetHandleVerifier [0x60a543+103f3]
+	undetected_chromedriver!GetHandleVerifier [0x60a584+10434]
+	undetected_chromedriver!(No symbol) [0x40a700]
+	undetected_chromedriver!(No symbol) [0x453bab]
+	undetected_chromedriver!(No symbol) [0x453dcb]
+	undetected_chromedriver!(No symbol) [0x495b32]
+	undetected_chromedriver!(No symbol) [0x476114]
+	undetected_chromedriver!(No symbol) [0x49339a]
+	undetected_chromedriver!(No symbol) [0x475e66]
+	undetected_chromedriver!(No symbol) [0x449159]
+	undetected_chromedriver!(No symbol) [0x449f24]
+	undetected_chromedriver!GetHandleVerifier [0x894bba+29aa6a]
+	undetected_chromedriver!GetHandleVerifier [0x890119+295fc9]
+	undetected_chromedriver!GetHandleVerifier [0x8b103e+2b6eee]
+	undetected_chromedriver!GetHandleVerifier [0x6237f6+296a6]
+	undetected_chromedriver!GetHandleVerifier [0x62a91d+307cd]
+	undetected_chromedriver!GetHandleVerifier [0x612d18+18bc8]
+	undetected_chromedriver!GetHandleVerifier [0x612ec5+18d75]
+	undetected_chromedriver!GetHandleVerifier [0x5fc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x771e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898944+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898914+b4]
+Traceback (most recent call last):
+  File "D:\_PreetiProjects\July2026\Midwestsupplyus\Pricingmidwestsupplyus.py", line 205, in scraped_by_mpn
+    add_to_cart = wait.until(
+        EC.element_to_be_clickable(
+            (By.CSS_SELECTOR, "button#AddToCart")
+        )
+    )
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	undetected_chromedriver!GetHandleVerifier [0x60a543+103f3]
+	undetected_chromedriver!GetHandleVerifier [0x60a584+10434]
+	undetected_chromedriver!(No symbol) [0x40a700]
+	undetected_chromedriver!(No symbol) [0x453bab]
+	undetected_chromedriver!(No symbol) [0x453dcb]
+	undetected_chromedriver!(No symbol) [0x495b32]
+	undetected_chromedriver!(No symbol) [0x476114]
+	undetected_chromedriver!(No symbol) [0x49339a]
+	undetected_chromedriver!(No symbol) [0x475e66]
+	undetected_chromedriver!(No symbol) [0x449159]
+	undetected_chromedriver!(No symbol) [0x449f24]
+	undetected_chromedriver!GetHandleVerifier [0x894bba+29aa6a]
+	undetected_chromedriver!GetHandleVerifier [0x890119+295fc9]
+	undetected_chromedriver!GetHandleVerifier [0x8b103e+2b6eee]
+	undetected_chromedriver!GetHandleVerifier [0x6237f6+296a6]
+	undetected_chromedriver!GetHandleVerifier [0x62a91d+307cd]
+	undetected_chromedriver!GetHandleVerifier [0x612d18+18bc8]
+	undetected_chromedriver!GetHandleVerifier [0x612ec5+18d75]
+	undetected_chromedriver!GetHandleVerifier [0x5fc05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x771e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898944+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898914+b4]
+
+2026-07-18 13:22:24,481:__main__:Error in scraped_by_mpn(): cannot access local variable 'final_price' where it is not associated with a value
+2026-07-18 13:22:24,482:__main__:Starting vendor: 16051 | https://midwestsupplyus.com/
+2026-07-18 13:22:24,483:__main__:Vendor 16051 >> Processing product_id: 1893, mpn: 100113158, vendor_product_id: 5069609
+2026-07-18 13:22:26,675:__main__:Product (ID: 1893) is marked as processed
+2026-07-18 13:22:32,710:__main__:Product URL: https://midwestsupplyus.com/products/spe-100113158
+2026-07-18 13:22:33,118:__main__:Add to Cart button clicked
+2026-07-18 13:22:43,375:__main__:Shipping button clicked
+2026-07-18 13:22:43,797:__main__:ZIP code entered: 11001
+2026-07-18 13:22:43,941:__main__:State selected: New York
+2026-07-18 13:22:45,998:__main__:Update Totals clicked
+2026-07-18 13:22:47,067:__main__:Shipping: 16.99
+2026-07-18 13:22:55,226:__main__:Product removed from cart
+2026-07-18 13:22:57,528:__main__:Same vendor price already exists for vendor_product_id 5069609
+2026-07-18 13:22:57,946:__main__:Record Updated for vendor_product_id (5069609) and source (direct_from_website)
+2026-07-18 13:23:03,484:__main__:History Table is up-to-date.
+2026-07-18 13:23:03,895:__main__:Record Inserted for vendor_product_id (5069609) and source (direct_from_website) In z_16051_VendorPricing history table.
+2026-07-18 13:23:26,733:__main__:Product (ID: 1893) is marked as scraped
+2026-07-18 13:23:26,943:__main__:Starting vendor: 16051 | https://midwestsupplyus.com/
+2026-07-18 13:23:26,943:__main__:Vendor 16051 >> Processing product_id: 1877, mpn: 100110719, vendor_product_id: 5068245
+2026-07-18 13:23:29,104:__main__:Product (ID: 1877) is marked as processed
+2026-07-18 13:23:35,523:__main__:Product URL: https://midwestsupplyus.com/products/spe-100110719?variant=44872913125559
+2026-07-18 13:23:35,973:__main__:Add to Cart button clicked
+2026-07-18 13:23:47,952:__main__:Shipping button clicked
+2026-07-18 13:23:48,349:__main__:ZIP code entered: 11001
+2026-07-18 13:23:48,575:__main__:State selected: New York
+2026-07-18 13:23:50,623:__main__:Update Totals clicked
+2026-07-18 13:23:51,707:__main__:Shipping: 16.99
+2026-07-18 13:23:58,524:__main__:Product removed from cart
+2026-07-18 13:24:00,817:__main__:Same vendor price already exists for vendor_product_id 5068245
+2026-07-18 13:24:01,234:__main__:Record Updated for vendor_product_id (5068245) and source (direct_from_website)
+2026-07-18 13:24:06,815:__main__:History Table is up-to-date.
+2026-07-18 13:24:07,241:__main__:Record Inserted for vendor_product_id (5068245) and source (direct_from_website) In z_16051_VendorPricing history table.
+2026-07-18 13:24:30,239:__main__:Product (ID: 1877) is marked as scraped
+2026-07-18 13:24:30,457:__main__:Total execution time: 457.48 seconds
+2026-07-18 13:26:32,715:__main__:Re-Setting products
+2026-07-18 13:26:33,500:__main__:MySQL ERROR getUrls() >> 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['1877,1893,1987,2122,2189,3423,3426,3493,3501,3507,3626,3636,3674,3680,4395,...' at line 5
+2026-07-18 13:26:33,748:__main__:An error occurred: 'NoneType' object is not iterable
+2026-07-18 13:29:32,448:__main__:Re-Setting products
+2026-07-18 13:29:33,164:__main__:MySQL ERROR getUrls() >> 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['1877,1893,1987,2122,2189,3423,3426,3493,3501,3507,3626,3636,3674,3680,4395,...' at line 5
+2026-07-18 13:29:33,392:__main__:An error occurred: 'NoneType' object is not iterable
+2026-07-18 13:34:44,222:__main__:Re-Setting products
+2026-07-18 13:34:44,437:__main__:MySQL ERROR getUrls() >> 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT p.product_id) AS product_id
+                FROM Product p
+         ...' at line 2
+2026-07-18 13:34:44,651:__main__:An error occurred: 'NoneType' object is not iterable
+2026-07-18 13:35:00,112:__main__:Re-Setting products
+2026-07-18 13:35:00,342:__main__:MySQL ERROR getUrls() >> 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT p.product_id) AS product_id
+                FROM Product p
+         ...' at line 2
+2026-07-18 13:35:00,585:__main__:An error occurred: 'NoneType' object is not iterable
+2026-07-18 13:35:16,858:__main__:Re-Setting products
+2026-07-18 13:35:17,070:__main__:MySQL ERROR getUrls() >> 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT p.product_id) AS product_id
+                FROM Product p
+         ...' at line 1
+2026-07-18 13:35:17,291:__main__:An error occurred: 'NoneType' object is not iterable
+2026-07-18 13:35:57,096:__main__:Re-Setting products
+2026-07-18 13:35:58,079:__main__:MySQL ERROR getUrls() >> Not enough parameters for the SQL statement
+2026-07-18 13:35:58,794:__main__:An error occurred: 'NoneType' object is not iterable
+2026-07-18 13:38:32,001:__main__:Re-Setting products
+2026-07-18 13:38:36,288:__main__:Found 243 URLs to process
+2026-07-18 13:38:36,777:__main__:Starting vendor: 16051 | https://midwestsupplyus.com/
+2026-07-18 13:38:36,778:__main__:Vendor 16051 >> Processing product_id: 946437, mpn: 100109462, vendor_product_id: 5070725
+2026-07-18 13:38:39,183:__main__:Product (ID: 946437) is marked as processed
+2026-07-18 13:38:49,976:__main__:Product URL: https://midwestsupplyus.com/products/spe-100109462
+2026-07-18 13:38:53,093:__main__:Add to Cart button clicked
+2026-07-18 13:39:24,607:__main__:Shipping button clicked
+2026-07-18 13:39:24,977:__main__:ZIP code entered: 11001
+2026-07-18 13:39:25,316:__main__:State selected: New York
+2026-07-18 13:39:27,369:__main__:Update Totals clicked
+2026-07-18 13:39:37,844:__main__:Error finding or clicking button: Message: 
+Stacktrace:
+	undetected_chromedriver!GetHandleVerifier [0x10fa543+103f3]
+	undetected_chromedriver!GetHandleVerifier [0x10fa584+10434]
+	undetected_chromedriver!(No symbol) [0xefa700]
+	undetected_chromedriver!(No symbol) [0xf43bab]
+	undetected_chromedriver!(No symbol) [0xf43dcb]
+	undetected_chromedriver!(No symbol) [0xf85b32]
+	undetected_chromedriver!(No symbol) [0xf66114]
+	undetected_chromedriver!(No symbol) [0xf8339a]
+	undetected_chromedriver!(No symbol) [0xf65e66]
+	undetected_chromedriver!(No symbol) [0xf39159]
+	undetected_chromedriver!(No symbol) [0xf39f24]
+	undetected_chromedriver!GetHandleVerifier [0x1384bba+29aa6a]
+	undetected_chromedriver!GetHandleVerifier [0x1380119+295fc9]
+	undetected_chromedriver!GetHandleVerifier [0x13a103e+2b6eee]
+	undetected_chromedriver!GetHandleVerifier [0x11137f6+296a6]
+	undetected_chromedriver!GetHandleVerifier [0x111a91d+307cd]
+	undetected_chromedriver!GetHandleVerifier [0x1102d18+18bc8]
+	undetected_chromedriver!GetHandleVerifier [0x1102ec5+18d75]
+	undetected_chromedriver!GetHandleVerifier [0x10ec05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x771e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898944+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898914+b4]
+Traceback (most recent call last):
+  File "D:\_PreetiProjects\July2026\Midwestsupplyus\Pricingmidwestsupplyus.py", line 269, in scraped_by_mpn
+    wait.until(
+    ~~~~~~~~~~^
+        EC.presence_of_element_located((By.CSS_SELECTOR, "ul#shipping-rates li"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	undetected_chromedriver!GetHandleVerifier [0x10fa543+103f3]
+	undetected_chromedriver!GetHandleVerifier [0x10fa584+10434]
+	undetected_chromedriver!(No symbol) [0xefa700]
+	undetected_chromedriver!(No symbol) [0xf43bab]
+	undetected_chromedriver!(No symbol) [0xf43dcb]
+	undetected_chromedriver!(No symbol) [0xf85b32]
+	undetected_chromedriver!(No symbol) [0xf66114]
+	undetected_chromedriver!(No symbol) [0xf8339a]
+	undetected_chromedriver!(No symbol) [0xf65e66]
+	undetected_chromedriver!(No symbol) [0xf39159]
+	undetected_chromedriver!(No symbol) [0xf39f24]
+	undetected_chromedriver!GetHandleVerifier [0x1384bba+29aa6a]
+	undetected_chromedriver!GetHandleVerifier [0x1380119+295fc9]
+	undetected_chromedriver!GetHandleVerifier [0x13a103e+2b6eee]
+	undetected_chromedriver!GetHandleVerifier [0x11137f6+296a6]
+	undetected_chromedriver!GetHandleVerifier [0x111a91d+307cd]
+	undetected_chromedriver!GetHandleVerifier [0x1102d18+18bc8]
+	undetected_chromedriver!GetHandleVerifier [0x1102ec5+18d75]
+	undetected_chromedriver!GetHandleVerifier [0x10ec05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x771e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898944+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898914+b4]
+
+2026-07-18 13:39:37,855:__main__:Error in scraped_by_mpn(): cannot access local variable 'final_price' where it is not associated with a value
+2026-07-18 13:39:37,856:__main__:Starting vendor: 16051 | https://midwestsupplyus.com/
+2026-07-18 13:39:37,856:__main__:Vendor 16051 >> Processing product_id: 946436, mpn: 100109479, vendor_product_id: 5070722
+2026-07-18 13:39:39,990:__main__:Product (ID: 946436) is marked as processed
+2026-07-18 13:39:48,773:__main__:Product URL: https://midwestsupplyus.com/products/spe-100109479
+2026-07-18 13:39:55,084:__main__:Add to Cart button clicked
+2026-07-18 13:40:04,579:__main__:Shipping button clicked
+2026-07-18 13:40:05,321:__main__:ZIP code entered: 11001
+2026-07-18 13:40:05,461:__main__:State selected: New York
+2026-07-18 13:40:09,584:__main__:Update Totals clicked
+2026-07-18 13:40:19,940:__main__:Error finding or clicking button: Message: 
+Stacktrace:
+	undetected_chromedriver!GetHandleVerifier [0x10fa543+103f3]
+	undetected_chromedriver!GetHandleVerifier [0x10fa584+10434]
+	undetected_chromedriver!(No symbol) [0xefa700]
+	undetected_chromedriver!(No symbol) [0xf43bab]
+	undetected_chromedriver!(No symbol) [0xf43dcb]
+	undetected_chromedriver!(No symbol) [0xf85b32]
+	undetected_chromedriver!(No symbol) [0xf66114]
+	undetected_chromedriver!(No symbol) [0xf8339a]
+	undetected_chromedriver!(No symbol) [0xf65e66]
+	undetected_chromedriver!(No symbol) [0xf39159]
+	undetected_chromedriver!(No symbol) [0xf39f24]
+	undetected_chromedriver!GetHandleVerifier [0x1384bba+29aa6a]
+	undetected_chromedriver!GetHandleVerifier [0x1380119+295fc9]
+	undetected_chromedriver!GetHandleVerifier [0x13a103e+2b6eee]
+	undetected_chromedriver!GetHandleVerifier [0x11137f6+296a6]
+	undetected_chromedriver!GetHandleVerifier [0x111a91d+307cd]
+	undetected_chromedriver!GetHandleVerifier [0x1102d18+18bc8]
+	undetected_chromedriver!GetHandleVerifier [0x1102ec5+18d75]
+	undetected_chromedriver!GetHandleVerifier [0x10ec05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x771e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898944+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898914+b4]
+Traceback (most recent call last):
+  File "D:\_PreetiProjects\July2026\Midwestsupplyus\Pricingmidwestsupplyus.py", line 269, in scraped_by_mpn
+    wait.until(
+    ~~~~~~~~~~^
+        EC.presence_of_element_located((By.CSS_SELECTOR, "ul#shipping-rates li"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	undetected_chromedriver!GetHandleVerifier [0x10fa543+103f3]
+	undetected_chromedriver!GetHandleVerifier [0x10fa584+10434]
+	undetected_chromedriver!(No symbol) [0xefa700]
+	undetected_chromedriver!(No symbol) [0xf43bab]
+	undetected_chromedriver!(No symbol) [0xf43dcb]
+	undetected_chromedriver!(No symbol) [0xf85b32]
+	undetected_chromedriver!(No symbol) [0xf66114]
+	undetected_chromedriver!(No symbol) [0xf8339a]
+	undetected_chromedriver!(No symbol) [0xf65e66]
+	undetected_chromedriver!(No symbol) [0xf39159]
+	undetected_chromedriver!(No symbol) [0xf39f24]
+	undetected_chromedriver!GetHandleVerifier [0x1384bba+29aa6a]
+	undetected_chromedriver!GetHandleVerifier [0x1380119+295fc9]
+	undetected_chromedriver!GetHandleVerifier [0x13a103e+2b6eee]
+	undetected_chromedriver!GetHandleVerifier [0x11137f6+296a6]
+	undetected_chromedriver!GetHandleVerifier [0x111a91d+307cd]
+	undetected_chromedriver!GetHandleVerifier [0x1102d18+18bc8]
+	undetected_chromedriver!GetHandleVerifier [0x1102ec5+18d75]
+	undetected_chromedriver!GetHandleVerifier [0x10ec05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x771e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898944+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898914+b4]
+
+2026-07-18 13:40:19,956:__main__:Error in scraped_by_mpn(): cannot access local variable 'final_price' where it is not associated with a value
+2026-07-18 13:40:19,956:__main__:Starting vendor: 16051 | https://midwestsupplyus.com/
+2026-07-18 13:40:19,957:__main__:Vendor 16051 >> Processing product_id: 946435, mpn: 100109512, vendor_product_id: 5070719
+2026-07-18 13:40:22,111:__main__:Product (ID: 946435) is marked as processed
+2026-07-18 13:40:27,010:__main__:Product URL: https://midwestsupplyus.com/products/spe-100109512
+2026-07-18 13:40:30,012:__main__:Add to Cart button clicked
+2026-07-18 13:40:40,031:__main__:Shipping button clicked
+2026-07-18 13:40:40,667:__main__:ZIP code entered: 11001
+2026-07-18 13:40:44,941:__main__:State selected: New York
+2026-07-18 13:40:46,984:__main__:Update Totals clicked
+2026-07-18 13:40:57,414:__main__:Error finding or clicking button: Message: 
+Stacktrace:
+	undetected_chromedriver!GetHandleVerifier [0x10fa543+103f3]
+	undetected_chromedriver!GetHandleVerifier [0x10fa584+10434]
+	undetected_chromedriver!(No symbol) [0xefa700]
+	undetected_chromedriver!(No symbol) [0xf43bab]
+	undetected_chromedriver!(No symbol) [0xf43dcb]
+	undetected_chromedriver!(No symbol) [0xf85b32]
+	undetected_chromedriver!(No symbol) [0xf66114]
+	undetected_chromedriver!(No symbol) [0xf8339a]
+	undetected_chromedriver!(No symbol) [0xf65e66]
+	undetected_chromedriver!(No symbol) [0xf39159]
+	undetected_chromedriver!(No symbol) [0xf39f24]
+	undetected_chromedriver!GetHandleVerifier [0x1384bba+29aa6a]
+	undetected_chromedriver!GetHandleVerifier [0x1380119+295fc9]
+	undetected_chromedriver!GetHandleVerifier [0x13a103e+2b6eee]
+	undetected_chromedriver!GetHandleVerifier [0x11137f6+296a6]
+	undetected_chromedriver!GetHandleVerifier [0x111a91d+307cd]
+	undetected_chromedriver!GetHandleVerifier [0x1102d18+18bc8]
+	undetected_chromedriver!GetHandleVerifier [0x1102ec5+18d75]
+	undetected_chromedriver!GetHandleVerifier [0x10ec05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x771e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898944+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898914+b4]
+Traceback (most recent call last):
+  File "D:\_PreetiProjects\July2026\Midwestsupplyus\Pricingmidwestsupplyus.py", line 269, in scraped_by_mpn
+    wait.until(
+    ~~~~~~~~~~^
+        EC.presence_of_element_located((By.CSS_SELECTOR, "ul#shipping-rates li"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	undetected_chromedriver!GetHandleVerifier [0x10fa543+103f3]
+	undetected_chromedriver!GetHandleVerifier [0x10fa584+10434]
+	undetected_chromedriver!(No symbol) [0xefa700]
+	undetected_chromedriver!(No symbol) [0xf43bab]
+	undetected_chromedriver!(No symbol) [0xf43dcb]
+	undetected_chromedriver!(No symbol) [0xf85b32]
+	undetected_chromedriver!(No symbol) [0xf66114]
+	undetected_chromedriver!(No symbol) [0xf8339a]
+	undetected_chromedriver!(No symbol) [0xf65e66]
+	undetected_chromedriver!(No symbol) [0xf39159]
+	undetected_chromedriver!(No symbol) [0xf39f24]
+	undetected_chromedriver!GetHandleVerifier [0x1384bba+29aa6a]
+	undetected_chromedriver!GetHandleVerifier [0x1380119+295fc9]
+	undetected_chromedriver!GetHandleVerifier [0x13a103e+2b6eee]
+	undetected_chromedriver!GetHandleVerifier [0x11137f6+296a6]
+	undetected_chromedriver!GetHandleVerifier [0x111a91d+307cd]
+	undetected_chromedriver!GetHandleVerifier [0x1102d18+18bc8]
+	undetected_chromedriver!GetHandleVerifier [0x1102ec5+18d75]
+	undetected_chromedriver!GetHandleVerifier [0x10ec05f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x771e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898944+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77898914+b4]
+
+2026-07-18 13:40:57,427:__main__:Error in scraped_by_mpn(): cannot access local variable 'final_price' where it is not associated with a value
+2026-07-18 13:40:57,430:__main__:Starting vendor: 16051 | https://midwestsupplyus.com/
+2026-07-18 13:40:57,431:__main__:Vendor 16051 >> Processing product_id: 946434, mpn: 100109176, vendor_product_id: 5070716
+2026-07-18 13:40:59,587:__main__:Product (ID: 946434) is marked as processed

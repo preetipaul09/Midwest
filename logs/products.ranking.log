@@ -1,0 +1,50 @@
+2026-07-18 13:18:58,977:modules.saveRanks:
+    ------ Starting evaluating competitors ranking of the product ---------
+    
+2026-07-18 13:19:01,070:modules.saveRanks:Finding ranking for product_id (226323) of vendor_id (16051).
+2026-07-18 13:19:15,186:modules.saveRanks:Not found in ERP.
+2026-07-18 13:19:15,631:modules.saveRanks:Ranks are set null vendor_pricing_id (5534227)
+2026-07-18 13:19:16,075:modules.saveRanks:Pricing data updated for vendor_pricing_id (5534227) (16051 X 226323)
+2026-07-18 13:19:18,814:modules.saveRanks:Ranks are set NULL for vendor_pricing_id (79922) in history table.
+2026-07-18 13:19:19,232:modules.saveRanks:Pricing data updated for vendor_pricing_id (79922) in history table.
+2026-07-18 13:19:19,661:modules.saveRanks:Finished making ranking of the product in 20.68 second(s)
+2026-07-18 13:20:03,800:modules.saveRanks:
+    ------ Starting evaluating competitors ranking of the product ---------
+    
+2026-07-18 13:20:05,874:modules.saveRanks:Finding ranking for product_id (226322) of vendor_id (16051).
+2026-07-18 13:20:19,717:modules.saveRanks:Not found in ERP.
+2026-07-18 13:20:20,201:modules.saveRanks:Ranks are set null vendor_pricing_id (6168119)
+2026-07-18 13:20:20,657:modules.saveRanks:Pricing data updated for vendor_pricing_id (6168119) (16051 X 226322)
+2026-07-18 13:20:23,498:modules.saveRanks:Ranks are set NULL for vendor_pricing_id (79923) in history table.
+2026-07-18 13:20:23,939:modules.saveRanks:Pricing data updated for vendor_pricing_id (79923) in history table.
+2026-07-18 13:20:24,395:modules.saveRanks:Finished making ranking of the product in 20.6 second(s)
+2026-07-18 13:21:40,187:modules.saveRanks:
+    ------ Starting evaluating competitors ranking of the product ---------
+    
+2026-07-18 13:21:42,358:modules.saveRanks:Finding ranking for product_id (226321) of vendor_id (16051).
+2026-07-18 13:21:56,037:modules.saveRanks:Not found in ERP.
+2026-07-18 13:21:56,465:modules.saveRanks:Ranks are set null vendor_pricing_id (6168118)
+2026-07-18 13:21:56,893:modules.saveRanks:Pricing data updated for vendor_pricing_id (6168118) (16051 X 226321)
+2026-07-18 13:21:59,611:modules.saveRanks:Ranks are set NULL for vendor_pricing_id (79924) in history table.
+2026-07-18 13:22:00,028:modules.saveRanks:Pricing data updated for vendor_pricing_id (79924) in history table.
+2026-07-18 13:22:00,449:modules.saveRanks:Finished making ranking of the product in 20.26 second(s)
+2026-07-18 13:23:04,100:modules.saveRanks:
+    ------ Starting evaluating competitors ranking of the product ---------
+    
+2026-07-18 13:23:06,229:modules.saveRanks:Finding ranking for product_id (1893) of vendor_id (16051).
+2026-07-18 13:23:20,103:modules.saveRanks:Not found in ERP.
+2026-07-18 13:23:20,538:modules.saveRanks:Ranks are set null vendor_pricing_id (6167705)
+2026-07-18 13:23:20,973:modules.saveRanks:Pricing data updated for vendor_pricing_id (6167705) (16051 X 1893)
+2026-07-18 13:23:23,760:modules.saveRanks:Ranks are set NULL for vendor_pricing_id (79925) in history table.
+2026-07-18 13:23:24,189:modules.saveRanks:Pricing data updated for vendor_pricing_id (79925) in history table.
+2026-07-18 13:23:24,619:modules.saveRanks:Finished making ranking of the product in 20.52 second(s)
+2026-07-18 13:24:07,454:modules.saveRanks:
+    ------ Starting evaluating competitors ranking of the product ---------
+    
+2026-07-18 13:24:09,651:modules.saveRanks:Finding ranking for product_id (1877) of vendor_id (16051).
+2026-07-18 13:24:23,157:modules.saveRanks:Not found in ERP.
+2026-07-18 13:24:23,580:modules.saveRanks:Ranks are set null vendor_pricing_id (6167715)
+2026-07-18 13:24:24,004:modules.saveRanks:Pricing data updated for vendor_pricing_id (6167715) (16051 X 1877)
+2026-07-18 13:24:26,854:modules.saveRanks:Ranks are set NULL for vendor_pricing_id (79926) in history table.
+2026-07-18 13:24:27,298:modules.saveRanks:Pricing data updated for vendor_pricing_id (79926) in history table.
+2026-07-18 13:24:27,729:modules.saveRanks:Finished making ranking of the product in 20.27 second(s)
