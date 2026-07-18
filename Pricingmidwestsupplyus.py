@@ -227,10 +227,13 @@ def scraped_by_mpn(driver,vendor_id, vendor_url, product_id, brand_name_from_DB,
 
             driver.execute_script("arguments[0].click();", shipping_button)
             logger.debug("Shipping button clicked")
+            time.sleep(2)
 
-            zip_input = wait.until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, "input#address_zip"))
-            )
+            close_pop = driver.find_element(By.CSS_SELECTOR, "button.klaviyo-close-form")
+            if close_pop:
+                driver.execute_script("arguments[0].click();", close_pop)
+
+            zip_input = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input#address_zip")))
 
             # Enter ZIP code
             zip_input.clear()
@@ -265,6 +268,8 @@ def scraped_by_mpn(driver,vendor_id, vendor_url, product_id, brand_name_from_DB,
             driver.execute_script("arguments[0].click();", update_button)
 
             logger.debug("Update Totals clicked")
+
+            time.sleep(5)
             # Wait for shipping estimate / total update
             wait.until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, "ul#shipping-rates li"))
